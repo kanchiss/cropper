@@ -1,1 +1,7 @@
 <p>image-crop works!</p>
+<img
+      #sourceImage
+      class="source-image"
+      *ngIf="safeImgDataUrl"
+      [src]="safeImgDataUrl"
+    />
